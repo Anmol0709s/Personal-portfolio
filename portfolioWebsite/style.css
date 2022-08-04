@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind&family=Poppins:wght@200&family=Tiro+Devanagari+Sanskrit:ital@1&family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind&family=Poppins:wght@200&family=Tiro+Devanagari+Sanskrit:ital@1&family=Titan+One&family=Yellowtail&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.sidebar {
+    background-color: rgb(143, 192, 211);
+   
+    font-family: 'Titan One', cursive;
+    height: 100%;
+    transition: transform 0.3s,ease-in;
+
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+}
+.sidebar nav{
+    padding: 3rem;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 1rem;
+    padding: 2rem 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    /* background-color: yellow; */
+    width: 100vw;
+}
+
+.container {
+    display: flex;
+
+}
+
+.info{
+/* background-color: blue; */
+height: 60vh;
+width: 75vw;
+margin: 10rem auto;
+display: flex;
+justify-content: space-around;
+}
+
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Yellowtail', cursive;
+}
+.hello{
+font-size: 4rem;
+}
+.name{
+font-size: 3rem;
+font-weight: bold;
+
+}
+.about{
+    font-size: 1rem;
+    font-family: 'Titan One', cursive;
+}
+.moreAbout{
+    margin: 25px;
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.buttons{
+    margin-top: 20px;
+
+}
+.buttons button{
+    margin: 5px;
+    padding: 9px;
+    color: yellow;
+    background-color: cornflowerblue;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.buttons button:hover{
+    font-size: 1rem;
+    background-color: yellow;
+    color: cornflowerblue;
+}
+.devPic img {
+    
+    height: 60vh;
+    width: 270px;
+}
+
+.haimSymbol{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 5px;
+}
+
+.cross{
+    margin-left: 110px;
+}

@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind&family=Poppins:wght@200&family=Tiro+Devanagari+Sanskrit:ital@1&family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind&family=Poppins:wght@200&family=Tiro+Devanagari+Sanskrit:ital@1&family=Titan+One&family=Yellowtail&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.sidebar {
+    background-color: rgb(143, 192, 211);
+    width: 15vw;
+    font-family: 'Titan One', cursive;
+    height: 100%;
+
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+}
+.sidebar nav{
+    padding: 3rem;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 1rem;
+    padding: 2rem 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    /* background-color: yellow; */
+    width: 100vw;
+}
+
+.container {
+    display: flex;
+
+}
+
+.blogItem{
+    margin: 20px;
+}
+
+.blogContainer h1{
+margin:  23px;
+}
+
+
+.blogItem h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.blogContainer p{
+    font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .blogItem button{
+        padding: 6px;
+        color: skyblue;
+        background-color: white;
+        border-radius: 25px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .blogItem button:hover{
+        font-size: 1rem;
+        background-color: black;
+        color: cornflowerblue;
+    }

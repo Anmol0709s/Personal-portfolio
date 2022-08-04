@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind&family=Poppins:wght@200&family=Tiro+Devanagari+Sanskrit:ital@1&family=Titan+One&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind&family=Poppins:wght@200&family=Tiro+Devanagari+Sanskrit:ital@1&family=Titan+One&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.sidebar {
+    background-color: rgb(143, 192, 211);
+    width: 15vw;
+    font-family: 'Titan One', cursive;
+    height: 100%;
+
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+}
+.sidebar nav{
+    padding: 3rem;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 1rem;
+    padding: 2rem 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    /* background-color: yellow; */
+    width: 100vw;
+}
+
+.container {
+    display: flex;
+
+}
+
+
+.contactForm{
+    /* background-color: aqua; */
+    padding-top: 100px;
+    padding: 0 34px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: space-around;
+}
+
+h1{
+    margin: 20px;
+    font-family: 'Yellowtail', cursive;
+    text-align: center;
+}
+
+.contactForm form div{
+    font: bold;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+.contactForm form div input{
+   
+    width: 20rem;
+    border-radius: 14px;
+    margin: 3px 0 0 0;
+    padding: 3px;
+}
+
+#emailHelp{
+    color:rgb(39, 111, 187) ;
+    font-size: 10px;
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
+ margin: -3px 0 0 0;
+}
+
+#form-check{
+    flex-direction: row;
+
+}
+#form-check input{
+    width: 18px;
+    margin: 3px 4px;
+}
+
+.btn button{
+    width: 5rem;
+    margin: 5px 120px;
+    padding: 6px;
+    color: yellow;
+    background-color: cornflowerblue;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn button:hover{
+    font-size: 1rem;
+    background-color: yellow;
+    color: cornflowerblue;
+}
